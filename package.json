@@ -1,0 +1,19 @@
+{
+  "name": "heritapp",
+  "version": "1.0.0",
+  "description": "Schoolproject 2019/2020 - CMP5",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimberlyLuycx/CMP5-HeritApp.git"
+  },
+  "author": "Luycx Kimberly, Hendrickx Lies, Westerterp Evie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimberlyLuycx/CMP5-HeritApp/issues"
+  },
+  "homepage": "https://github.com/KimberlyLuycx/CMP5-HeritApp#readme"
+}
