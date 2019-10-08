@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KimberlyLuycx/CMP5-HeritApp/issues"
   },
-  "homepage": "https://github.com/KimberlyLuycx/CMP5-HeritApp#readme"
+  "homepage": "https://github.com/KimberlyLuycx/CMP5-HeritApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
