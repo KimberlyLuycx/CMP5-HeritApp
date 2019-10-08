@@ -15,12 +15,20 @@ app.get('/', function (req, res) {
 });
 
 // wat achter de slash staat is url die je ingeeft in browse
-app.get('/tweede', function (req, res) {
-  res.render('page2');
+app.get('/kaart', function (req, res) {
+  res.render('pkaart');
 });
 
-app.get('/derde', function (req, res) {
-  res.render('page3');
+app.get('/overzicht', function (req, res) {
+  res.render('overzicht');
+});
+
+app.get('/contact', function (req, res) {
+  res.render('contact');
+});
+
+app.get('/account', function (req, res) {
+  res.render('account');
 });
 
 app.listen(port);
