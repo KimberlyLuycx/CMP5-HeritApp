@@ -5,6 +5,7 @@ const path = require("path");
 
 // applicatie: zet instellings 'views' op 'mapje views'
 app.set("views", path.resolve(__dirname, "views"));
+app.use(express.static('public'));
 
 app.set("view engine", "ejs");
 
