@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
 
 // wat achter de slash staat is url die je ingeeft in browse
 app.get('/kaart', function (req, res) {
-  res.render('pkaart');
+  res.render('kaart');
 });
 
 app.get('/overzicht', function (req, res) {
