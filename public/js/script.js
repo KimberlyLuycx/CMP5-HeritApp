@@ -5,7 +5,7 @@ var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles
 	subdomains: 'abcd',
 	maxZoom: 19
 }).addTo(mymap);
-
+/*
 var icon_manag = L.icon({
     iconUrl: 'images/marker_management.png',
 
@@ -61,3 +61,4 @@ var icon_grad = L.icon({
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
+*/

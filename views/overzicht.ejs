@@ -6,5 +6,14 @@
   <section>
     <p>Hier komt een overzicht waar je kan filteren.</p>
   </section>
+
+<section>
+  <% for (var i=0; i < information.length; i++)  { %>
+     	<p> straat: <%= information[i].attributes.straat%></p>
+  <% } %>
+</section>
+
+
+
 </main>
 <% include footer %>
