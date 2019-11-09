@@ -1,4 +1,5 @@
 <% include header %>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <main>
   <header>
     <h1>Overzicht</h1>
@@ -7,16 +8,37 @@
     <p>Hier komt een overzicht waar je kan filteren.</p>
   </section>
 
-<section>
+  <div class="filtersorteer">
+  <div id="filters" class="button-group">
+    Filter:
+    <button class="button is-checked" data-filter="*">alles</button>
+    <button class="button" data-filter=".museum">museum</button>
+    <button class="button" data-filter=".erfgoedvereniging">erfgoedvereniging</button>
+    <button class="button" data-filter=".archief">archief</button>
+  </div>
+  <div id="sorts" class="button-group">
+    Sorteer:
+    <button class="button is-checked" data-sort-by="original-order">oorspronkelijke volgorde</button>
+    <button class="button" data-sort-by="name">alfabetisch</button>
+    <button class="button" data-sort-by="prijs">postcode</button>
+  </div>
+  </div>
+
+
+<section class="grid">
   <% for (var i=0; i < information.length; i++)  { %>
-      <div class="itemoverzicht">
-     	<p><b><%= information[i].attributes.naam%></b>  <%= information[i].attributes.categorie%></p>
+      <div class="itemoverzicht <%= information[i].attributes.categorie%>">
+      <img style="float: right; margin: 10px 15px 15px 20px;" src="https://images1.persgroep.net/rcs/8S5uvgh8PNmvdVRUU3gnsm_K5To/diocontent/143018506/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8" width="100" />
+     	<p class="naam"><b><%= information[i].attributes.naam%></b>  <%= information[i].attributes.categorie%></p>
       <p><%= information[i].attributes.straat%> <%= information[i].attributes.huisnr%></p>
-      <p><%= information[i].attributes.postcode%> <%= information[i].attributes.gemeente%></p>
+      <p class="prijs"><%= information[i].attributes.postcode%> <%= information[i].attributes.gemeente%></p>
       </div>
   <% } %>
 </section>
 
+  <script src="jquery.min.js"></script>
+  <script src="isotope.js"></script>
+  <script src="script.js"></script>
 
 
 </main>
