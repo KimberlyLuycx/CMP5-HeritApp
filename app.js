@@ -22,10 +22,6 @@ request('https://geodata.antwerpen.be/arcgissql/rest/services/P_Portal/portal_pu
     features = features.features;
 
     for(var i=0; i < features.length; i++) {
-        /*console.log("naam: " + data.features[i].attributes.naam);
-        console.log("coord: " + data.features[i].geometry.x + ", " + data.features[i].geometry.y);
-        console.log("");*/
-        console.log(features[i].attributes.straat);
     }
 
   }

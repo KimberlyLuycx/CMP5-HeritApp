@@ -9,7 +9,11 @@
 
 <section>
   <% for (var i=0; i < information.length; i++)  { %>
-     	<p> straat: <%= information[i].attributes.straat%></p>
+      <div class="itemoverzicht">
+     	<p><b><%= information[i].attributes.naam%></b>  <%= information[i].attributes.categorie%></p>
+      <p><%= information[i].attributes.straat%> <%= information[i].attributes.huisnr%></p>
+      <p><%= information[i].attributes.postcode%> <%= information[i].attributes.gemeente%></p>
+      </div>
   <% } %>
 </section>
 

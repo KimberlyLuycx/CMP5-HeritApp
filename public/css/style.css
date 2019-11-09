@@ -6,3 +6,13 @@ body {
   height: 50vh;
   width: 90vw;
 }
+
+.itemoverzicht {
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+}
