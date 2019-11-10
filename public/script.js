@@ -7,7 +7,9 @@ var $grid = $('.grid').isotope({
   layoutMode: 'fitRows',
   getSortData: {
     name: '.naam',
+    postcode: '.postcode',
     prijs: '.prijs',
+    populariteit: '.populariteit',
   }
 });
 // filter functions
