@@ -4,7 +4,16 @@
     <h1>Contact</h1>
   </header>
   <section>
-    <p>Hier komt de contactpagina</p>
+    <p>Hoe kunnen wij helpen?</p>
+    <p>Laat een bericht of klacht achter en wij zullen zo snel mogelijk proberen te reageren</p>
+
+  <form>
+    <input name="name" type="text" class="feedback-input" placeholder="Enter your full name" required />
+    <input name="email" type="text" class="feedback-input" placeholder="Enter your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+    <textarea name="text" class="feedback-input" placeholder="Write a comment" required></textarea>
+    <input type="submit" value="SUBMIT"/>
+  </form>
+
   </section>
 </main>
 <% include footer %>
