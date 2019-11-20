@@ -7,9 +7,8 @@ section  p {
   /*color: white; wou dit gebruiken voor de tekst bij homepagina wit te behouden, maar nu is ook de tekst bij het overzicht wit, dus zal een andere oplossing moeten zoeken*/
 }
 #mapid {
-/*  height: 50vh;
-  width: 90vw;*/
-  width: 70%;
+ height: 50vh;
+  width: 90vw
 }
 
 .itemoverzicht, .grid {
