@@ -20,9 +20,8 @@ request('https://geodata.antwerpen.be/arcgissql/rest/services/P_Portal/portal_pu
   function(error, response, body){
     features = JSON.parse(body);
     features = features.features;
-
-    for(var i=0; i < features.length; i++) {
-    }
+    /*for(var i=0; i < features.length; i++) {
+    }*/
 
   }
 );

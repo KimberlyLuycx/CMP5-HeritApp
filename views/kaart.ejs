@@ -27,7 +27,7 @@ crossorigin=""></script>
  <script type="text/javascript">
  <% for(var i=0; i < information.length; i++) { %>
  L.marker([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>]).addTo(mymap)
-     .bindPopup(`<b><%- information[i].attributes.naam%></b><br> <%- information[i].attributes.categorie%>`).on('click', function(e){mymap.setView([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], 18)});
+     .bindPopup(`<b><%- information[i].attributes.naam%></b><br> <%- information[i].attributes.categorie%><br><a href='/overzicht/<%= i%>'>Meer informatie</a>`).on('click', function(e){mymap.setView([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], 18)});
  <% } %>
  </script>
 

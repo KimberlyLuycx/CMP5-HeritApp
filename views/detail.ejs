@@ -24,7 +24,7 @@ crossorigin=""/>
 
    <script type="text/javascript">
    L.marker([<%-details.geometry.y %>, <%-details.geometry.x %>])
-       .bindPopup(`<b><%- details.attributes.naam%><b><br>`).on('click', function(e){mymap.setView([<%-details.geometry.y %>, <%-details.geometry.x %>], 18)})
+       .bindPopup(`<b><%- details.attributes.naam%><b><br> <%- details.attributes.categorie%>`).on('click', function(e){mymap.setView([<%-details.geometry.y %>, <%-details.geometry.x %>], 18)})
        .addTo(mymap);
    </script>
 
