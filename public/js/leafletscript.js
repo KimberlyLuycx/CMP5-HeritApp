@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([51.3009, 4.7265], 9);
+var mymap = L.map('mapid').setView([51.217499, 4.421570], 11);
 
 var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
