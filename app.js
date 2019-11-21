@@ -52,4 +52,12 @@ app.get('/account', function (req, res) {
   res.render('account');
 });
 
+app.get('/overzicht/:id', function(req,res){
+  res.render('detail', {
+    information: features,
+    details: features[req.params.id]
+  });
+});
+
+
 app.listen(port);
