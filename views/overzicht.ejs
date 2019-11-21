@@ -25,7 +25,6 @@
     Sorteer:
     <button class="button is-checked" data-sort-by="original-order">oorspronkelijke volgorde</button>
     <button class="button" data-sort-by="name">alfabetisch</button>
-    <button class="button" data-sort-by="postcode">postcode</button>
     <button class="button" data-sort-by="prijs">prijs</button>
     <button class="button" data-sort-by="populariteit">populariteit google</button>
   </div>
@@ -37,9 +36,9 @@
       <div class="itemoverzicht <%= information[i].attributes.categorie%>">
       <img style="float: right; margin: 10px 15px 15px 20px;" src="https://images1.persgroep.net/rcs/8S5uvgh8PNmvdVRUU3gnsm_K5To/diocontent/143018506/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8" width="100" />
      	<p class="naam"><b><%= information[i].attributes.naam%></b>  <%= information[i].attributes.categorie%></p>
-      <p><%= information[i].attributes.straat%> <%= information[i].attributes.huisnr%></p>
-      <p class="postcode"><%= information[i].attributes.postcode%> <%= information[i].attributes.gemeente%></p>
-      <p class="basistekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec nulla mi. Ut non eleifend lorem. Quisque erat nisl, dapibus eu nisl facilisis, venenatis venenatis risus. Phasellus sit amet pulvinar ante.</p>
+      <p>Prijs:</p>
+      <p>Toegankelijk:</p>
+      <p>Google rating:</p>
       <a class='back' href='/overzicht/<%= i%>'>Meer informatie</a>
       </div>
   <% } %>
