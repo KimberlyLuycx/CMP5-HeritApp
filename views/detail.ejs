@@ -23,7 +23,27 @@ crossorigin=""/>
    <script src='/js/leafletscript.js'></script>
 
    <script type="text/javascript">
-   L.marker([<%-details.geometry.y %>, <%-details.geometry.x %>])
+
+       var iconSoort;
+       var categorie = '<%- details.attributes.categorie%>';
+
+       if (categorie === 'Erfgoedvereniging') {
+         iconSoort = erfgoedvereniging;
+       } else if (categorie === 'Museum') {
+         iconSoort = museum;
+       } else if (categorie === 'Levensbeschouwelijk.erfgoed') {
+         iconSoort = levensbeschouwelijk;
+       } else if (categorie === 'Documentatiecentrum') {
+         iconSoort = centrum;
+       } else if (categorie === 'Erfgoedbibliotheek') {
+         iconSoort = bibliotheek;
+       } else if (categorie === 'Archief') {
+         iconSoort = archief;
+       } else if (categorie === 'Museumdepot') {
+         iconSoort = depot;
+       };
+
+   L.marker([<%-details.geometry.y %>, <%-details.geometry.x %>], {icon: iconSoort})
        .bindPopup(`<b><%- details.attributes.naam%><b><br> <%- details.attributes.categorie%>`).on('click', function(e){mymap.setView([<%-details.geometry.y %>, <%-details.geometry.x %>], 18)})
        .addTo(mymap);
    </script>
