@@ -24,8 +24,9 @@ crossorigin=""/>
 
    <script type="text/javascript">
 
+ <% for(var i=0; i < details.length; i++) { %>
        var iconSoort;
-       var categorie = '<%-details.attributes.categorie%>';
+       var categorie = '<%-details[i].attributes.categorie%>';
 
        if (categorie === 'Erfgoedvereniging') {
          iconSoort = erfgoedvereniging;
@@ -42,7 +43,8 @@ crossorigin=""/>
        } else if (categorie === 'Museumdepot') {
          iconSoort = depot;
        };
-       
+<% } %>
+
     L.marker([<%-details.geometry.y %>, <%-details.geometry.x %>]).addTo(mymap)
              .bindPopup(`<b><%- details.attributes.naam%></b><br> <%- details.attributes.categorie%>`).on('click', function(e){mymap.setView([<%-details.geometry.y %>, <%-details.geometry.x %>], 18)});
    </script>
