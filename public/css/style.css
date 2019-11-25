@@ -15,6 +15,10 @@ body {
 width: 90vw
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .itemoverzicht, .grid {
   background-color: white;
   margin: 1em;
