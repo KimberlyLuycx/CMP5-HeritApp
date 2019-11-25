@@ -12,25 +12,80 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 2em;
   font-weight: bold;
   font-family: 'Alatsi', sans-serif;
   color: #c71617;
-  padding: 1em;
+  padding: 0.5em;
 }
 
-nav {
-  padding-top: 1em;
+.logo {
+  height: 10%;
+  width: auto;
 }
+
+/* NAVIGATIE CSS */
+nav {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  width: 100%;
+  font-weight: bold;
+}
+
+.nav {
+  background-color: #c71617;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+li:active {
+  background-color: black;
+  transition: all 0.2s;
+}
+
+header {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* kaartpagina, tekst onder titel */
+.tekstkaart {
+  width: 90%;
+  padding-bottom: 1em;
+  padding-left: 5%;
+  text-align: left;
+}
+
+  /* LEAFLET KAART CSS */
 
 #mapid {
+  margin-top: 2em;
  height: 50vh;
-width: 90vw
+width: 100%;
 }
 
 .bold {
   font-weight: bold;
 }
+
+/*ITEMOVERZICHT CSS */
 
 .itemoverzicht, .grid {
   background-color: white;
@@ -61,15 +116,29 @@ width: 90vw
   margin-right: auto;
 }
 
+/* FILTER EN SORTEER button styling */
+.button {
+  background-color: #c71617;
+  border: none;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.sorteertekst {
+  padding-top: 1em;
+}
 .logo {
   padding-top: 1em;
   padding-left: 5px;
 }
 
 
-/* onderstaande code is het CONTACTFORMULIER op de CONTACTPAGINA */
+/* CONTACTFORMULIER op de CONTACTPAGINA  CSS*/
 
-form { max-width:420px; margin:50px auto; }
+form { max-width: 80%; margin:50px auto; }
 
 .feedback-input {
   color: black;
@@ -79,7 +148,7 @@ form { max-width:420px; margin:50px auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid black;
+  border:2px solid #c71617;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -104,7 +173,7 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background: #c71617;
   border-radius:5px;
   border:0;
   cursor:pointer;
