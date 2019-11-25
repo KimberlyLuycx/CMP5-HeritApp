@@ -1,15 +1,28 @@
+html {
+    height: 100%;
+    text-align: center;
+}
+
 body {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,0,0,1) 0%, rgba(111,0,145,1) 100%);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  background: rgb(255,255,255);
 }
 
 h1 {
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Alatsi', sans-serif;
+  color: #c71617;
+  padding: 1em;
 }
 
-body {
-  font-size: 20px;
+nav {
+  padding-top: 1em;
 }
+
 #mapid {
  height: 50vh;
 width: 90vw
@@ -48,20 +61,25 @@ width: 90vw
   margin-right: auto;
 }
 
+.logo {
+  padding-top: 1em;
+  padding-left: 5px;
+}
+
 
 /* onderstaande code is het CONTACTFORMULIER op de CONTACTPAGINA */
 
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
-  color: white;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid white;
+  border:2px solid black;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -79,7 +97,7 @@ textarea {
 }
 
 ::placeholder {
-  color: white;
+  color: black;
   opacity: 50%;
 }
 
