@@ -26,7 +26,28 @@ crossorigin=""></script>
 
  <script type="text/javascript">
  <% for(var i=0; i < information.length; i++) { %>
- L.marker([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>]).addTo(mymap)
+
+   var iconSoort;
+   var categorie = '<%-information[i].attributes.categorie%>';
+
+   if (categorie === 'Erfgoedvereniging') {
+     iconSoort = erfgoedvereniging;
+   } else if (categorie === 'Museum') {
+     iconSoort = museum;
+   } else if (categorie === 'Levensbeschouwelijk.erfgoed') {
+     iconSoort = levensbeschouwelijk;
+   } else if (categorie === 'Documentatiecentrum') {
+     iconSoort = centrum;
+   } else if (categorie === 'Erfgoedbibliotheek') {
+     iconSoort = bibliotheek;
+   } else if (categorie === 'Archief') {
+     iconSoort = archief;
+   } else if (categorie === 'Museumdepot') {
+     iconSoort = depot;
+   };
+
+
+ L.marker([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], {icon: iconSoort}).addTo(mymap)
      .bindPopup(`<b><%- information[i].attributes.naam%></b><br> <%- information[i].attributes.categorie%><br><a href='/overzicht/<%= i%>'>Meer informatie</a>`).on('click', function(e){mymap.setView([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], 18)});
  <% } %>
  </script>

@@ -5,60 +5,39 @@ var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles
 	subdomains: 'abcd',
 	maxZoom: 19
 }).addTo(mymap);
-/*
-var icon_manag = L.icon({
-    iconUrl: 'images/marker_management.png',
 
-    iconSize:     [100, 95], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+var erfgoedvereniging = L.icon({
+    iconUrl: 'images/marker_erfgoedvereniging.png',
+    iconSize: [42, 69], // size of the icon
+
 });
 
-var icon_general = L.icon({
-    iconUrl: 'images/marker_algemeen.png',
-
-    iconSize:     [100, 95], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+var museum = L.icon({
+    iconUrl: 'images/marker_museum.png',
+		iconSize: [42, 69], // size of the icon
 });
 
-var icon_combo = L.icon({
-    iconUrl: 'images/marker_combo.png',
-
-    iconSize:     [100, 95], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+var levensbeschouwelijk = L.icon({
+    iconUrl: 'images/marker_levensbeschouwelijk.png',
+		iconSize: [42, 69], // size of the icon
 });
 
-var icon_wet = L.icon({
-    iconUrl: 'images/marker_wetenschap.png',
-
-    iconSize:     [100, 95], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+var centrum = L.icon({
+    iconUrl: 'images/marker_centrum.png',
+		iconSize: [42, 69], // size of the icon
 });
 
-var icon_cons = L.icon({
-    iconUrl: 'images/marker_conservatorium.png',
-
-    iconSize:     [100, 95], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+var bibliotheek = L.icon({
+    iconUrl: 'images/marker_bibliotheek.png',
+		iconSize: [42, 69], // size of the icon
 });
 
-var icon_acad = L.icon({
-    iconUrl: 'images/marker_academie.png',
-
-    iconSize:     [100, 95], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+var archief = L.icon({
+    iconUrl: 'images/marker_archief.png',
+		iconSize: [42, 69], // size of the icon
 });
 
-var icon_grad = L.icon({
-    iconUrl: 'images/marker_graduaat.png',
-
-    iconSize:     [100, 95], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+var depot = L.icon({
+    iconUrl: 'images/marker_depot.png',
+		iconSize: [42, 69], // size of the icon
 });
-*/
