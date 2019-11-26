@@ -233,3 +233,7 @@ textarea {
 
 select {
 }
+
+#mapid {
+  border-radius: 10px;
+}
