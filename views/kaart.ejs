@@ -54,6 +54,27 @@ crossorigin=""></script>
  L.marker([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], {icon: iconSoort}).addTo(mymap)
      .bindPopup(`<b class='bold'><%- information[i].attributes.naam%></b><br> <%- information[i].attributes.categorie%><br><a href='/overzicht/<%= i%>'>Meer informatie</a>`).on('click', function(e){mymap.setView([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], 18)});
  <% } %>
+
+ var hier = L.icon({
+     iconUrl: 'images/marker_locatie.png',
+     iconSize: [42, 69], // size of the icon
+ });
+
+ function onLocationFound(e) {
+ 	var radius = e.accuracy / 2;
+
+ 	L.marker(e.latlng, {icon: hier}).addTo(mymap)
+ 		.bindPopup("Je bent " + radius + " meter verwijderd van dit punt").openPopup();
+ }
+
+ function onLocationError(e) {
+ 	alert(e.message);
+ }
+
+ mymap.on('locationfound', onLocationFound);
+ mymap.on('locationerror', onLocationError);
+
+ mymap.locate({setView: true, maxZoom: 16});
  </script>
 
 <% include footer %>

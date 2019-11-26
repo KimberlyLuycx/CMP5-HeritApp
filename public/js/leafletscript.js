@@ -9,7 +9,6 @@ var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles
 var erfgoedvereniging = L.icon({
     iconUrl: 'images/marker_erfgoedvereniging.png',
     iconSize: [42, 69], // size of the icon
-
 });
 
 var museum = L.icon({
