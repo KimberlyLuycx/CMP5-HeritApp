@@ -23,6 +23,7 @@ h1 {
   font-family: 'Alatsi', sans-serif;
   color: #c71617;
   padding: 0.5em;
+  line-height: 45px;
 }
 
 .logo {
@@ -34,6 +35,11 @@ h1 {
   padding-bottom: 1em;
   padding-top: 1em;
   font-size: 15px;
+}
+
+.linkskaart {
+  font-size: 18px;
+  color: #c71617;
 }
 
 /* NAVIGATIE CSS */

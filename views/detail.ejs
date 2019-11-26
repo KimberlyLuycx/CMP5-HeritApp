@@ -4,16 +4,15 @@ integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIpt
 crossorigin=""/>
 <main>
   <header>
-    <h1>Overzicht</h1>
+    <h1><%= details.attributes.naam%></h1>
   </header>
   <section class='content'>
-    <p><%= details.attributes.naam%></p>
-    <p><%= details.attributes.categorie%></p>
-    <p><%= details.attributes.straat%> <%= details.attributes.huisnr%> </p>
+    <p><%= details.attributes.categorie%></p><br>
+    <p><%= details.attributes.straat%> <%= details.attributes.huisnr%></p>
     <p><%= details.attributes.postcode%> <%= details.attributes.gemeente%> </p>
-    <p>Prijs:</p>
+    <!-- <p>Prijs:</p>
     <p>Toegankelijk:</p>
-    <p>Google rating:</p>
+    <p>Google rating:</p> -->
     <div id="mapid"></div>
 
 
@@ -49,8 +48,8 @@ crossorigin=""/>
              .bindPopup(`<b><%- details.attributes.naam%></b><br> <%- details.attributes.categorie%>`).on('click', function(e){mymap.setView([<%-details.geometry.y %>, <%-details.geometry.x %>], 18)});
    </script>
 
-    <a href='/overzicht/'>Terug naar het overzicht</a>
-    <a href='/kaart/'>Terug naar de map</a>
+    <a class='linkskaart' href='/overzicht/'>Terug naar het overzicht</a>
+    <a class='linkskaart' href='/kaart/'>Terug naar de map</a>
   </section>
 
 
