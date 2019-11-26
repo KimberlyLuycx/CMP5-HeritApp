@@ -5,11 +5,11 @@
     <h1>Overzicht</h1>
   </header>
   <section class='content'>
-    <p>Hier komt een overzicht waar je kan filteren.</p>
+    <p>Op deze pagina vind je alle erfgoedlocaties in Antwerpen.<br><br> Gevonden wat je zocht?<br> Klik op meer informatie voor het adres, de openingsuren, etc.</p>
 
   <div class="filtersorteer">
   <div id="filters" class="button-group">
-    <p class="filtertekst">Filter</p>
+    <p class="filtertekst">Filteren op:</p>
     <button class="button is-checked" data-filter="*">alles</button>
     <button class="button" data-filter=".Erfgoedvereniging">erfgoedvereniging</button>
     <button class="button" data-filter=".Museum">museum</button>
@@ -21,7 +21,7 @@
     <!-- <button class="button" data-filter=".Toegankelijk">toegankelijk</button> -->
   </div>
   <div id="sorts" class="button-group">
-   <p class="sorteertekst">Sorteer</p>
+   <p class="sorteertekst">Sorteren op:</p>
     <button class="button is-checked" data-sort-by="original-order">oorspronkelijke volgorde</button>
     <button class="button" data-sort-by="name">alfabetisch</button>
     <!-- <button class="button" data-sort-by="prijs">prijs</button>
@@ -33,12 +33,11 @@
 <section class="grid">
   <% for (var i=0; i < information.length; i++)  { %>
       <div class="itemoverzicht <%= information[i].attributes.categorie%>">
-      <img style="float: right; margin: 10px 15px 15px 20px;" src="https://images1.persgroep.net/rcs/8S5uvgh8PNmvdVRUU3gnsm_K5To/diocontent/143018506/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8" width="100" />
-     	<p class="naam"><b><%= information[i].attributes.naam%></b>  <%= information[i].attributes.categorie%></p>
+     	<p class="naam"><b class='bold'><%= information[i].attributes.naam%></b><br>  <%= information[i].attributes.categorie%></p>
       <!-- <p>Prijs:</p>
       <p>Toegankelijk:</p>
       <p>Google rating:</p> -->
-      <a class='back' href='/overzicht/<%= i%>'>Meer informatie</a>
+      <a class='linkskaart' href='/overzicht/<%= i%>'>Meer informatie</a>
       </div>
   <% } %>
 </section>

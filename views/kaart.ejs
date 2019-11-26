@@ -52,7 +52,7 @@ crossorigin=""></script>
 
 
  L.marker([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], {icon: iconSoort}).addTo(mymap)
-     .bindPopup(`<b class='bold'><%- information[i].attributes.naam%></b><br> <%- information[i].attributes.categorie%><br><a href='/overzicht/<%= i%>'>Meer informatie</a>`).on('click', function(e){mymap.setView([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], 18)});
+     .bindPopup(`<b class='bold'><%- information[i].attributes.naam%></b><br> <%- information[i].attributes.categorie%><br><a class='linkskaart' href='/overzicht/<%= i%>'>Meer informatie</a>`).on('click', function(e){mymap.setView([<%-information[i].geometry.y %>, <%-information[i].geometry.x %>], 18)});
  <% } %>
 
  var hier = L.icon({

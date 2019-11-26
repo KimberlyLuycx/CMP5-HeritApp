@@ -45,7 +45,7 @@ crossorigin=""/>
 <% } %>
 
     L.marker([<%-details.geometry.y %>, <%-details.geometry.x %>]).addTo(mymap)
-             .bindPopup(`<b><%- details.attributes.naam%></b><br> <%- details.attributes.categorie%>`).on('click', function(e){mymap.setView([<%-details.geometry.y %>, <%-details.geometry.x %>], 18)});
+             .bindPopup(`<b class='bold'><%- details.attributes.naam%></b><br> <%- details.attributes.categorie%>`).on('click', function(e){mymap.setView([<%-details.geometry.y %>, <%-details.geometry.x %>], 18)});
    </script>
 
     <a class='linkskaart' href='/overzicht/'>Terug naar het overzicht</a>
