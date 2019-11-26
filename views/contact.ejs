@@ -8,9 +8,15 @@
     <p>Laat uw opmerking, klacht of vraag hier achter!</p>
 
   <form>
-    <input name="name" type="text" class="feedback-input" placeholder="Vul uw naam en achternaam in" required />
+    <input name="name" type="text" class="feedback-input" placeholder="Uw naam en achternaam" required />
     <input name="email" type="text" class="feedback-input" placeholder="Vul uw email in" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
-    <textarea name="text" class="feedback-input" placeholder="Vul hier uw opmerking of vraag in" required></textarea>
+    <select class="feedback-input" name="choice">
+        <option value="Klacht over locatie">Klacht over locatie</option>
+        <option value="Klacht over app">Klacht over app</option>
+        <option value="Opmerking">Opmerking</option>
+        <option value="Vraag">Vraag</option>
+    </select>
+    <textarea name="text" class="feedback-input" placeholder="Typ hier uw bericht" required></textarea>
     <input type="submit" value="Verzenden"/>
   </form>
 
