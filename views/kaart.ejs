@@ -63,7 +63,7 @@ crossorigin=""></script>
  	var radius = e.accuracy / 2;
 
  	L.marker(e.latlng, {icon: hier}).addTo(mymap)
- 		.bindPopup("Je bent " + radius + " meter verwijderd van dit punt").openPopup();
+ 		.bindPopup("U bent " + radius + " meter verwijderd van dit punt").openPopup();
  }
 
  function onLocationError(e) {

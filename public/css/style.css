@@ -37,11 +37,20 @@ h1 {
   font-size: 15px;
 }
 
+/*pop up aanpassingen van de kaart markers */
+
 .linkskaart {
   font-size: 18px;
   color: #c71617;
 }
 
+.leaflet-popup-content-wrapper a{
+  color: #c71617!important;
+}
+
+ .leaflet-popup-content a {
+   color: #c71617!important;
+ }
 /* afbeeldingen op homepagina */
 .fotocontainer {
   padding-top: 2em;
@@ -49,10 +58,11 @@ h1 {
 }
 
 .imagekimberly, .imagelies, .imageevie {
-  height: 30%;
-  width: 30%;
+  height: 20%;
+  width: 20%;
   border-radius: 50%;
-  padding: 0.1em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
 }
 
 /* NAVIGATIE CSS */
