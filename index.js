@@ -40,7 +40,8 @@ app.get('/kaart', function (req, res) {
 
 app.get('/overzicht', function (req, res) {
   res.render('overzicht', {
-    information: features
+    information: features,
+    extrainfo: databanktwee.databankTwee
   });
 });
 
