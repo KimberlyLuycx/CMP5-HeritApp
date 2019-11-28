@@ -3,6 +3,11 @@ html {
     text-align: center;
 }
 
+.overzichthtml {
+    height: 300%;
+}
+
+
 body {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
@@ -27,7 +32,7 @@ h1 {
 }
 
 .logo {
-  height: 10%;
+  max-height: 10%;
   width: auto;
 }
 
@@ -73,12 +78,14 @@ nav {
   width: 100%;
   font-weight: bold;
   z-index: 1000;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
 .nav {
   background-color: #c71617;
+  position: sticky;
 }
 
 ul {
