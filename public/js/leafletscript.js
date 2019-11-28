@@ -7,12 +7,12 @@ var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles
 }).addTo(mymap);
 
 var erfgoedvereniging = L.icon({
-    iconUrl: 'images/marker_erfgoedvereniging.png',
+    iconUrl: '/images/marker_erfgoedvereniging.png',
     iconSize: [42, 69], // size of the icon
 });
 
 var museum = L.icon({
-    iconUrl: 'images/marker_museum.png',
+    iconUrl: '/images/marker_museum.png',
 		iconSize: [42, 69], // size of the icon
 });
 
