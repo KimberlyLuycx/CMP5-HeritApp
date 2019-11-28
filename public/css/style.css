@@ -1,17 +1,12 @@
 html {
-    height: 100%;
     text-align: center;
 }
 
-.overzichthtml {
-    height: 300%;
-}
 
 
 body {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  height: 100%;
   margin: 0;
   background: rgb(255,255,255);
   line-height: 27px;
@@ -29,11 +24,6 @@ h1 {
   color: #c71617;
   padding: 0.5em;
   line-height: 45px;
-}
-
-.logo {
-  max-height: 10%;
-  width: auto;
 }
 
 .copyright {
