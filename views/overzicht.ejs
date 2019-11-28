@@ -18,6 +18,8 @@
     <button class="button" data-filter=".Erfgoedbibliotheek">erfgoedbibliotheek</button>
     <button class="button" data-filter=".Archief">archief</button>
     <button class="button" data-filter=".Museumdepot">museumdepot</button>
+    <button class="button" data-filter=".Openlucht">openlucht</button>
+    <button class="button" data-filter=".Overdekt">overdekt</button>
     <!-- <button class="button" data-filter=".Toegankelijk">toegankelijk</button> -->
   </div>
   <div id="sorts" class="button-group">
@@ -32,7 +34,7 @@
 
 <section class="grid">
   <% for (var i=0; i < information.length; i++)  { %>
-      <div class="itemoverzicht <%= information[i].attributes.categorie%>">
+      <div class="itemoverzicht <%= information[i].attributes.categorie%> <%= information[i].attributes.type%>">
      	<p class="naam"><b class='bold'><%= information[i].attributes.naam%></b><br>  <%= information[i].attributes.categorie%></p>
       <!-- <p>Prijs:</p>
       <p>Toegankelijk:</p>
