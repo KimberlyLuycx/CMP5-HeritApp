@@ -12,6 +12,8 @@ app.set("view engine", "ejs");
 
 app.use(express.static('public'));
 
+const databanktwee = require('./data/databanktwee.json');
+
 /* console.log("Webserver draait"); */
 
 var features;
