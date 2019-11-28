@@ -38,9 +38,9 @@
      	<p class="naam"><b class='bold'><%= information[i].attributes.naam%></b><br>  <%= information[i].attributes.categorie%></p>
       <% for (var j=0; j < extrainfo.length; j++)  { %>
         <% if (  information[i].attributes.OBJECTID == extrainfo[j].objectid ) { %>
-          <p>Prijs: <%= extrainfo[j].titel%></p>
-          <p>Toegankelijk:</p>
-          <p>Google rating:</p>
+          <p>Prijs: € <%= extrainfo[j].prijs%></p>
+          <p>Rolstoel- en buggyvriendelijk: <%= extrainfo[j].gebruiksvriendelijk%></p>
+          <p>Google rating: <%= extrainfo[j].populariteitgoogle%>/5</p>
         <% } %>
       <% } %>
       <a class='linkskaart' href='/overzicht/<%=i%>'>Meer informatie</a>
