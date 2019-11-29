@@ -23,34 +23,34 @@
     <button class="button" data-filter=".Museumdepot">museumdepot</button>
     <button class="button" data-filter=".Openlucht">openlucht</button>
     <button class="button" data-filter=".Overdekt">overdekt</button>
-    <!-- <button class="button" data-filter=".Toegankelijk">toegankelijk</button> -->
+    <button class="button" data-filter=".Toegankelijk">toegankelijk</button>
   </div>
   <div id="sorts" class="button-group">
    <p class="sorteertekst">Sorteren op:</p>
     <button class="button is-checked" data-sort-by="original-order">oorspronkelijke volgorde</button>
     <button class="button" data-sort-by="name">alfabetisch</button>
-    <!-- <button class="button" data-sort-by="prijs">prijs</button>
-    <button class="button" data-sort-by="populariteit">populariteit google</button> -->
+    <button class="button" data-sort-by="prijs">prijs</button>
+    <button class="button" data-sort-by="populariteit">populariteit google</button>
   </div>
   </div>
 
 
-<section class="grid">
-  <% for (var i=0; i < information.length; i++)  { %>
-    <div class="itemoverzicht <%= information[i].attributes.categorie%> <%= information[i].attributes.type%>">
-     	<p class="naam"><b class='bold'><%= information[i].attributes.naam%></b><br>  <%= information[i].attributes.categorie%></p>
-      <% for (var j=0; j < extrainfo.length; j++)  { %>
-        <% if (  information[i].attributes.OBJECTID == extrainfo[j].objectid ) { %>
-          <p>Prijs: € <%= extrainfo[j].prijs%></p>
-          <p>Rolstoel- en buggyvriendelijk: <%= extrainfo[j].gebruiksvriendelijk%></p>
-          <p>Google rating: <%= extrainfo[j].populariteitgoogle%>/5</p>
+  <section class="grid">
+    <% for (var i=0; i < information.length; i++)  { %>
+      <div class="itemoverzicht <%= information[i].attributes.categorie%> <%= information[i].attributes.type%>">
+       	<p class="naam"><b class='bold'><%= information[i].attributes.naam%></b><br>  <%= information[i].attributes.categorie%></p>
+        <% for (var j=0; j < extrainfo.length; j++)  { %>
+          <% if (  information[i].attributes.OBJECTID == extrainfo[j].objectid ) { %>
+            <p>Prijs: € <%= extrainfo[j].prijs%></p>
+            <p>Rolstoel- en buggyvriendelijk: <%= extrainfo[j].gebruiksvriendelijk%></p>
+            <p>Google rating: <%= extrainfo[j].populariteitgoogle%>/5</p>
+          <% } %>
         <% } %>
-      <% } %>
-      <a class='linkskaart' href='/overzicht/<%=i%>'>Meer informatie</a>
-    </div>
-  <% } %>
-</section>
+        <a class='linkskaart' href='/overzicht/<%=i%>'>Meer informatie</a>
+      </div>
+    <% } %>
   </section>
+    </section>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/isotope.js"></script>
