@@ -125,6 +125,39 @@ width: 100%;
   font-weight: bold;
 }
 
+/* LEGENDE op KAART PAGINA */
+
+.grid-legende {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.legende-item {
+  display: block;
+}
+
+.legende-image {
+  width: 50%;
+}
+
+.legende-tekst {
+  text-align: left;
+  padding-top: 1.8em;
+  padding-right: 0.5em;
+  font-size: 0.9em;
+  margin-right: 1.8em;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: 'Alatsi', sans-serif;
+  color: #c71617;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
 .sorteertekst, .filtertekst {
   font-weight: bold;
 }
