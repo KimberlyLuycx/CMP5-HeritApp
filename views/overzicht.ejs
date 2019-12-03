@@ -40,7 +40,7 @@
       <div class="itemoverzicht <%= information[i].attributes.categorie%> <%= information[i].attributes.type%>">
        	<p class="naam"><b class='bold'><%= information[i].attributes.naam%></b><br>  <%= information[i].attributes.categorie%></p>
         <% for (var j=0; j < extrainfo.length; j++)  { %>
-          <% if (  information[i].attributes.OBJECTID == extrainfo[j].objectid ) { %>
+          <% if (  information[i].attributes.naam == extrainfo[j].titel ) { %>
             <p>Prijs: € <%= extrainfo[j].prijs%></p>
             <p>Rolstoel- en buggyvriendelijk: <%= extrainfo[j].gebruiksvriendelijk%></p>
             <p>Google rating: <%= extrainfo[j].populariteitgoogle%>/5</p>

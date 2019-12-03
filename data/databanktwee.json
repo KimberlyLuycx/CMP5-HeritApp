@@ -1,8 +1,7 @@
 {
   "databankTwee": [
     {
-      "objectid": "21000",
-      "titel": "Rubenianium",
+      "titel": "Rubenianum",
       "prijs": 0,
       "openingstijd": "Maandag t/m vrijdag",
       "populariteitgoogle": 5,
@@ -10,8 +9,7 @@
       "basistekst": "Onderzoeksinstituut voor Vlaamse kunst van de 16de en 17de eeuw. Verzamelt en ontwikkelt deze kennis en stelt ze ter beschikking voor zowel een professioneel als een in erfgoed geïnteresseerd publiek."
     },
     {
-      "objectid": "21001",
-      "titel": "Felixarchief",
+      "titel": "FelixArchief",
       "prijs": 0,
       "openingstijd": "Dinsdag t/m vrijdag",
       "populariteitgoogle": 4.5,
@@ -19,7 +17,6 @@
       "basistekst": "Het indrukwekkende Antwerpse stadsarchief bewaart alle documenten van de stedelijke administratie, van de 13de eeuw tot vandaag. Het hanteert de modernste technieken en werkt intens mee aan tentoonstellingen in de stad en daarbuiten."
     },
     {
-      "objectid": "21091",
       "titel": "Havencentrum van Lillo",
       "prijs": 40,
       "openingstijd": "Maandag t/m vrijdag op afspraak",
@@ -28,7 +25,6 @@
       "basistekst": "Laat je onderdompelen in de overweldigende wereld van de haven van Antwerpen. Wij nemen je mee naar plaatsen en bedrijven waar je nooit komt en brengen je in contact met mensen die in de haven werken."
     },
     {
-      "objectid": "21121",
       "titel": "Sint-Paulus Kerk",
       "prijs": 0,
       "openingstijd": "Maandag t/m zondag",
@@ -37,17 +33,15 @@
       "basistekst": "De Sint-Pauluskerk is een laatgotische kerk aan de Veemarkt te Antwerpen, in het hart van het Schipperskwartier. De kerk heeft na een bewogen geschiedenis een bijzonder waardevol kunstpatrimonium."
     },
     {
-      "objectid": "21095",
-      "titel": "ModeMuseum MoMu",
+      "titel": "ModeMuseum (MoMu)",
       "prijs": 6,
-      "openingstijd": "Open vanf januari 2020",
+      "openingstijd": "Open vanaf januari 2020",
       "populariteitgoogle": 3.7,
       "gebruiksvriendelijk": "Nee",
       "basistekst": "Grootste collectie moderne Belgische mode ter wereld."
     },
     {
-      "objectid": "21074",
-      "titel": "Kunstcollectie provinciehuis",
+      "titel": "Kunstcollectie Provinciehuis - Provincie Antwerpen",
       "prijs": 0,
       "openingstijd": "Maandag t/m vrijdag",
       "populariteitgoogle": 3.7,
@@ -55,7 +49,6 @@
       "basistekst": "De voorbije 45 jaar bouwde de provincie Antwerpen een kunstcollectie uit, die vandaag ruim 2.300 kunstobjecten omvat. Ontdek de kunstcollectie van de provincie Antwerpen, en de mogelijkheden tot bruikleen."
     },
     {
-      "objectid": "21021",
       "titel": "Bormshuis",
       "prijs": 1,
       "openingstijd": "Dinsdag, woensdag, zaterdag",
@@ -64,8 +57,7 @@
       "basistekst": "Het Bormshuis is een museum en een documentatie- en archiefcentrum over de geschiedenis van de Vlaamse beweging. Het is genoemd naar August Borms (1878-1946), een Vlaams-nationalistische voorman."
     },
     {
-      "objectid": "21034",
-      "titel": "Erfgoedbibliotheek Hendrik Conscience",
+      "titel": "Erfgoedbibliotheek Hendrik Conscience (Korte Nieuwstr.)",
       "prijs": 5,
       "openingstijd": "Maandag t/m vrijdag",
       "populariteitgoogle": 4.7,
@@ -73,8 +65,7 @@
       "basistekst": "Midden in de bruisende Antwerpse binnenstad ligt de Erfgoedbibliotheek Hendrik Conscience. Ze bewaart en verzamelt al meer dan vijf eeuwen Vlaams cultureel erfgoed."
     },
     {
-      "objectid": "21058",
-      "titel": "T Vlaams Stripcentrum",
+      "titel": "t Vlaams Stripcentrum",
       "prijs": 0,
       "openingstijd": "Elke dag behalve vrijdag",
       "populariteitgoogle": 5,
@@ -82,8 +73,7 @@
       "basistekst": "Het centrum biedt een zeldzame combinatie van een erfgoedcollectie die het resultaat is van 25 jaar verzamelen (het Antiquariaat), een winkel, een bibliotheek met zowat 30.000 strips, een infotheek met documentatie en een aangename club van stripliefhebbers."
     },
     {
-      "objectid": "21082",
-      "titel": "Turninum, Volksmuseum Deurne",
+      "titel": "Turninum - Volksmuseum Deurne",
       "prijs": 1,
       "openingstijd": "Zaterdag & zondag",
       "populariteitgoogle": 4.1,
@@ -91,7 +81,6 @@
       "basistekst": "In een passende omgeving, een zevental historische arbeiderswoningen en een wagensmidse, reconstrueert dit museum leven en werk van de gewone werkman begin 20ste eeuw."
     },
     {
-      "objectid": "21072",
       "titel": "Kring voor Heemkunde Berchem",
       "prijs": 2,
       "openingstijd": "Elke tweede en vierde zondag van de maand",
@@ -100,7 +89,6 @@
       "basistekst": "We houden ons bezig met het verzamelen, bewaren en het beheren van de Berchemse geschiedenis en voorwerpen. Heemkring Berchem is de erfgoedvereniging van en voor de vroegere gemeente en nu het district Berchem van de Stad Antwerpen."
     },
     {
-      "objectid": "21105",
       "titel": "Onze-Lieve-Vrouwekathedraal",
       "prijs": 6,
       "openingstijd": "Maandag t/m zondag",
@@ -109,7 +97,6 @@
       "basistekst": "Als bisschop van Antwerpen wil ik u graag begroeten in de Onze-Lieve-Vrouwekathedraal. Dit prachtige kerkgebouw is een thuis voor de Rooms-katholieke gemeenschap van Antwerpen. Haar toren is een baken voor elke trotse Antwerpenaar. Haar kunstschatten brengen mensen van over de hele wereld in vervoering."
     },
     {
-      "objectid": "21004",
       "titel": "Rubenshuis",
       "prijs": 8,
       "openingstijd": "Dinsdag t/m zondag",
@@ -118,8 +105,7 @@
       "basistekst": "In dit stadspaleis woont de briljante en veelzijdige kunstenaar Rubens met zijn gezin. Hier schildert hij met zijn collega’s en assistenten. Veel van zijn omvangrijke oeuvre ontstaat in dit huis, in hartje Antwerpen. Het museum heeft niet alleen een interessante collectie, maar toont ook hoe de meester leefde en werkte."
     },
     {
-      "objectid": "21025",
-      "titel": "Cinema Zuid",
+      "titel": "Cinema Zuid (M HKA)",
       "prijs": 5,
       "openingstijd": "Alleen open als er een film is",
       "populariteitgoogle": 4.2,
@@ -127,7 +113,6 @@
       "basistekst": "Er begint een nieuw verhaal, het verhaal van De Cinema. Geboren uit een samenwerking tussen twee instellingen die op het eerste gezicht als een odd couple kunnen worden gezien: Cinema Zuid, de filmwerking van het M HKA met haar focus op filmhistorische benadering van cinema, en De Studio, een jong en dynamisch, multidisciplinair cultuurhuis in het hart van de stad. Het resultaat wordt een zoektocht."
     },
     {
-      "objectid": "21110",
       "titel": "Sint Antonius van Padua Kerk",
       "prijs": 0,
       "openingstijd": "Dinsdag t/m vrijdag",
@@ -136,7 +121,6 @@
       "basistekst": "De parochie van Sint-Antonius van Padua ligt in het oude stadsgedeelte binnen de Leien."
     },
     {
-      "objectid": "21078",
       "titel": "Poorterswoning de Pelgrom",
       "prijs": 3,
       "openingstijd": "Zaterdag & zondag",
@@ -145,8 +129,7 @@
       "basistekst": "Stap binnen in het leven van een 16de eeuwse poorter en maak een tijdsprong naar de Gouden Eeuw van Antwerpen.In deze 16de eeuwse woning draaien we de klok zo'n 500 jaar terug en legt onze gids uit hoe een rijke poorter woonde en leefde: het meubilair, zijn huisgerief, zijn bedstee, etc. U ontdekt er ook zijn huisdieren zoals de hond en kat, maar ook levende kippen, konijnen en reisduiven."
     },
     {
-      "objectid": "21111",
-      "titel": "Sint-Bartholomeus kerk",
+      "titel": "Sint-Bartholomeus Kerk",
       "prijs": 0,
       "openingstijd": "Op afspraak",
       "populariteitgoogle": 4.3,
@@ -154,7 +137,6 @@
       "basistekst": "Georiënteerde kruiskerk met ingebouwde westtoren ten noorden van het koor. De bouwgeschiedenis gaat terug tot de 15de eeuw. Zowel in de 18de, de 19de als de 20ste eeuw wordt de kerk ingrijpend vergroot. Na de bijna totale verwoesting in de 2de WO wordt de kerk tussen 1947 en 1950 heropgebouwd naar het vooroorlogs plan door architect H. Huygh. De kerk heeft nog een rijke schat aan barokmeubilair"
     },
     {
-      "objectid": "21130",
       "titel": "Mineralogisch Museum",
       "prijs": 4,
       "openingstijd": "Zaterdag",
@@ -163,7 +145,6 @@
       "basistekst": "ACAM, de Academie voor Mineralogie vzw heeft als doel liefhebbers van edelstenen, mineralen en fossielen bij elkaar te brengen."
     },
     {
-      "objectid": "21147",
       "titel": "Letterenhuis",
       "prijs": 5,
       "openingstijd": "Dinsdag t/m donderdag & zaterdag",
@@ -172,7 +153,6 @@
       "basistekst": "Het Letterenhuis draagt zorg voor het literaire erfgoed van Vlaanderen. Lees hier alles over archiefzorg en over het Letterenhuis, de missie, organisatie, medewerkers en geschiedenis."
     },
     {
-      "objectid": "21042",
       "titel": "Universiteit Antwerpen (UA) - Bibliotheek - Historische Collecties",
       "prijs": 0,
       "openingstijd": "Maandag t/m zaterdag",
