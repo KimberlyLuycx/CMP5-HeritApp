@@ -17,26 +17,26 @@ var museum = L.icon({
 });
 
 var levensbeschouwelijk = L.icon({
-    iconUrl: 'images/marker_levensbeschouwelijk.png',
+    iconUrl: '/images/marker_levensbeschouwelijk.png',
 		iconSize: [42, 69], // size of the icon
 });
 
 var centrum = L.icon({
-    iconUrl: 'images/marker_centrum.png',
+    iconUrl: '/images/marker_centrum.png',
 		iconSize: [42, 69], // size of the icon
 });
 
 var bibliotheek = L.icon({
-    iconUrl: 'images/marker_bibliotheek.png',
+    iconUrl: '/images/marker_bibliotheek.png',
 		iconSize: [42, 69], // size of the icon
 });
 
 var archief = L.icon({
-    iconUrl: 'images/marker_archief.png',
+    iconUrl: '/images/marker_archief.png',
 		iconSize: [42, 69], // size of the icon
 });
 
 var depot = L.icon({
-    iconUrl: 'images/marker_depot.png',
+    iconUrl: '/images/marker_depot.png',
 		iconSize: [42, 69], // size of the icon
 });
