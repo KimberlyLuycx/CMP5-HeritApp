@@ -175,7 +175,6 @@ h2 {
 }
 .itemoverzicht{ /*eigen aanpassing*/
   width: 60vw;
-  margin-left: 3px;
 }
 
 .grid {
@@ -183,14 +182,6 @@ h2 {
   border-radius: 5px;
 }
 
-.filtersorteer {
-  text-align: center;
-  margin: 1em;
-  padding: 1em;
-  width: 70vw;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* FILTER EN SORTEER button styling */
 .button {
