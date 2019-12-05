@@ -16,11 +16,31 @@ const databanktwee = require('./data/databanktwee.json');
 
 /* console.log("Webserver draait"); */
 
+let alleInfo = new Array();
+
 var features;
 request('https://geodata.antwerpen.be/arcgissql/rest/services/P_Portal/portal_publiek4/MapServer/293/query?where=1%3D1&outFields=*&outSR=4326&f=json',
   function(error, response, body){
     features = JSON.parse(body);
     features = features.features;
+
+    console.log("features geladen");
+    for( var i=0; i < features.length; i++) {
+      alleInfo[i] = {
+          attr: features[i].attributes
+      };
+      for (var j = 0; j < databanktwee.databankTwee.length; j++) {
+        if (features[i].attributes.naam == databanktwee.databankTwee[j].titel) {
+          alleInfo[i].info = databanktwee.databankTwee[j];
+        }
+      }
+    }
+
+    /*for (var x=0;x<alleInfo.length;x++){
+        console.log(alleInfo[x].info);
+    }*/
+
+
     /*for(var i=0; i < features.length; i++) {
     }*/
 
@@ -41,7 +61,8 @@ app.get('/kaart', function (req, res) {
 app.get('/overzicht', function (req, res) {
   res.render('overzicht', {
     information: features,
-    extrainfo: databanktwee.databankTwee
+    extrainfo: databanktwee.databankTwee,
+    alleInfo: alleInfo
   });
 });
 
@@ -56,7 +77,7 @@ app.get('/account', function (req, res) {
 app.get('/overzicht/:id', function(req,res){
   let info;
   for(var i=0; i < databanktwee.databankTwee.length; i++) {
-    //console.log(features[req.params.id].attributes.naam+"="+databanktwee.databankTwee[i].titel);
+    // console.log(features[req.params.id].attributes.naam+"="+databanktwee.databankTwee[i].titel);
     if(features[req.params.id].attributes.naam == databanktwee.databankTwee[i].titel) {
       info = databanktwee.databankTwee[i];
     }
