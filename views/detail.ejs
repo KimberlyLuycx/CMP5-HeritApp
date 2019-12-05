@@ -11,11 +11,11 @@ crossorigin=""/>
     <p><%= details.attributes.straat%> <%= details.attributes.huisnr%></p>
     <p><%= details.attributes.postcode%> <%= details.attributes.gemeente%> </p><br>
     <p><%= details.attributes.type%></p><br>
-    <p>Prijs: €</p>
-    <p>Openingsdagen:</p>
-    <p>Toegankelijk voor rolstoelen en buggy's:</p>
-    <p>Populariteit Google:</p><br>
-    <p class="basistekst">Hier komt een tekst met uitleg</p>
+    <p>Prijs: € <%=extrainfo.prijs %></p>
+    <p>Openingsdagen: <%=extrainfo.openingstijd %></p>
+    <p>Toegankelijk voor rolstoelen en buggy's: <%=extrainfo.gebruiksvriendelijk %></p>
+    <p>Populariteit Google: <%=extrainfo.populariteitgoogle %></p><br>
+    <p class="basistekst"><%=extrainfo.basistekst %></p>
     <div id="mapid"></div>
 
 

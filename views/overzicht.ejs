@@ -37,7 +37,9 @@
 
   <section class="grid">
     <% for (var i=0; i < information.length; i++)  { %>
-      <div class="itemoverzicht <%= information[i].attributes.categorie%> <%= information[i].attributes.type%>">
+      <!-- for (var i = 0, j = 0; i < information.length && j < extrainfo.length; i++, j++) -->
+      <!-- for (var i = 0, var j = 0; (i < information.length || j < extrainfo.length); i++, j++){ -->
+      <div class="itemoverzicht <%= information[i].attributes.categorie%> <%= information[i].attributes.type%> ">
        	<p class="naam"><b class='bold'><%= information[i].attributes.naam%></b><br>  <%= information[i].attributes.categorie%></p>
         <% for (var j=0; j < extrainfo.length; j++)  { %>
           <% if (  information[i].attributes.naam == extrainfo[j].titel ) { %>
