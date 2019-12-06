@@ -60,8 +60,6 @@ app.get('/kaart', function (req, res) {
 
 app.get('/overzicht', function (req, res) {
   res.render('overzicht', {
-    information: features,
-    extrainfo: databanktwee.databankTwee,
     alleInfo: alleInfo
   });
 });
@@ -75,18 +73,10 @@ app.get('/account', function (req, res) {
 });
 
 app.get('/overzicht/:id', function(req,res){
-  let info;
-  for(var i=0; i < databanktwee.databankTwee.length; i++) {
-    // console.log(features[req.params.id].attributes.naam+"="+databanktwee.databankTwee[i].titel);
-    if(features[req.params.id].attributes.naam == databanktwee.databankTwee[i].titel) {
-      info = databanktwee.databankTwee[i];
-    }
-  }
 
   res.render('detail', {
-    information: features,
-    details: features[req.params.id],
-    extrainfo: info
+    alleInfo: alleInfo[req.params.id],
+    details: features[req.params.id]
   });
 });
 

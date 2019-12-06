@@ -7,17 +7,15 @@ crossorigin=""/>
     <h1><%= alleInfo.attr.naam%></h1>
   </header>
   <section class='content'>
-    <p><%= alleInfo.attr.categorie%></p><br>
-    <p><%= alleInfo.attr.straat%> <%= alleInfo.attr.huisnr%></p>
-    <p><%= alleInfo.attr.postcode%> <%= alleInfo.attr.gemeente%> </p><br>
-    <p><%= alleInfo.attr.type%></p><br>
-    <% if (alleInfo.info != undefined) {%>
-    <p>Prijs: € <%=alleInfo.info.prijs %></p>
-    <p>Openingsdagen: <%=alleInfo.info.openingstijd %></p>
-    <p>Toegankelijk voor rolstoelen en buggy's: <%=alleInfo.info.gebruiksvriendelijk %></p>
-    <p>Populariteit Google: <%=alleInfo.info.populariteitgoogle %></p><br>
-    <p class="basistekst"><%=alleInfo.info.basistekst %></p>
-    <% }%>
+    <p><%= details.attributes.categorie%></p><br>
+    <p><%= details.attributes.straat%> <%= details.attributes.huisnr%></p>
+    <p><%= details.attributes.postcode%> <%= details.attributes.gemeente%> </p><br>
+    <p><%= details.attributes.type%></p><br>
+    <p>Prijs: € <%=extrainfo.prijs %></p>
+    <p>Openingsdagen: <%=extrainfo.openingstijd %></p>
+    <p>Toegankelijk voor rolstoelen en buggy's: <%=extrainfo.gebruiksvriendelijk %></p>
+    <p>Populariteit Google: <%=extrainfo.populariteitgoogle %></p><br>
+    <p class="basistekst"><%=extrainfo.basistekst %></p>
     <div id="mapid"></div>
 
 
