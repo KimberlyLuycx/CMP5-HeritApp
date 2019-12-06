@@ -18,12 +18,12 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   font-family: 'Alatsi', sans-serif;
   color: #c71617;
-  padding: 0.5em;
-  line-height: 45px;
+  padding: 0.3em;
+  line-height: 35px;
 }
 
 .copyright {
