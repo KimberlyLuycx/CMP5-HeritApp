@@ -6,7 +6,8 @@
       "openingstijd": "Maandag t/m vrijdag",
       "populariteitgoogle": 5,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "Onderzoeksinstituut voor Vlaamse kunst van de 16de en 17de eeuw. Verzamelt en ontwikkelt deze kennis en stelt ze ter beschikking voor zowel een professioneel als een in erfgoed geïnteresseerd publiek."
+      "basistekst": "Onderzoeksinstituut voor Vlaamse kunst van de 16de en 17de eeuw. Verzamelt en ontwikkelt deze kennis en stelt ze ter beschikking voor zowel een professioneel als een in erfgoed geïnteresseerd publiek.",
+      "imageURL": "/images/locaties/rubenianum.jpg"
     },
     {
       "titel": "FelixArchief",
@@ -14,7 +15,8 @@
       "openingstijd": "Dinsdag t/m vrijdag",
       "populariteitgoogle": 4.5,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "Het indrukwekkende Antwerpse stadsarchief bewaart alle documenten van de stedelijke administratie, van de 13de eeuw tot vandaag. Het hanteert de modernste technieken en werkt intens mee aan tentoonstellingen in de stad en daarbuiten."
+      "basistekst": "Het indrukwekkende Antwerpse stadsarchief bewaart alle documenten van de stedelijke administratie, van de 13de eeuw tot vandaag. Het hanteert de modernste technieken en werkt intens mee aan tentoonstellingen in de stad en daarbuiten.",
+      "imageURL": "/images/locaties/felixarchief.jpg"
     },
     {
       "titel": "Havencentrum van Lillo",
@@ -22,7 +24,8 @@
       "openingstijd": "Maandag t/m vrijdag op afspraak",
       "populariteitgoogle": 3.8,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "Laat je onderdompelen in de overweldigende wereld van de haven van Antwerpen. Wij nemen je mee naar plaatsen en bedrijven waar je nooit komt en brengen je in contact met mensen die in de haven werken."
+      "basistekst": "Laat je onderdompelen in de overweldigende wereld van de haven van Antwerpen. Wij nemen je mee naar plaatsen en bedrijven waar je nooit komt en brengen je in contact met mensen die in de haven werken.",
+      "imageURL": "/images/locaties/havencentrumlillo.jpg"
     },
     {
       "titel": "Sint-Paulus Kerk",
@@ -30,7 +33,8 @@
       "openingstijd": "Maandag t/m zondag",
       "populariteitgoogle": 3.8,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "De Sint-Pauluskerk is een laatgotische kerk aan de Veemarkt te Antwerpen, in het hart van het Schipperskwartier. De kerk heeft na een bewogen geschiedenis een bijzonder waardevol kunstpatrimonium."
+      "basistekst": "De Sint-Pauluskerk is een laatgotische kerk aan de Veemarkt te Antwerpen, in het hart van het Schipperskwartier. De kerk heeft na een bewogen geschiedenis een bijzonder waardevol kunstpatrimonium.",
+      "imageURL": "/images/locaties/sintpauluskerk.jpg"
     },
     {
       "titel": "ModeMuseum (MoMu)",
@@ -38,7 +42,8 @@
       "openingstijd": "Open vanaf januari 2020",
       "populariteitgoogle": 3.7,
       "gebruiksvriendelijk": "Nee",
-      "basistekst": "Grootste collectie moderne Belgische mode ter wereld."
+      "basistekst": "Grootste collectie moderne Belgische mode ter wereld.",
+      "imageURL": "/images/locaties/modemuseum.jpg"
     },
     {
       "titel": "Kunstcollectie Provinciehuis - Provincie Antwerpen",
@@ -46,7 +51,8 @@
       "openingstijd": "Maandag t/m vrijdag",
       "populariteitgoogle": 3.7,
       "gebruiksvriendelijk": "nee",
-      "basistekst": "De voorbije 45 jaar bouwde de provincie Antwerpen een kunstcollectie uit, die vandaag ruim 2.300 kunstobjecten omvat. Ontdek de kunstcollectie van de provincie Antwerpen, en de mogelijkheden tot bruikleen."
+      "basistekst": "De voorbije 45 jaar bouwde de provincie Antwerpen een kunstcollectie uit, die vandaag ruim 2.300 kunstobjecten omvat. Ontdek de kunstcollectie van de provincie Antwerpen, en de mogelijkheden tot bruikleen.",
+      "imageURL": "/images/locaties/provinciehuis.jpg"
     },
     {
       "titel": "Bormshuis",
@@ -54,7 +60,8 @@
       "openingstijd": "Dinsdag, woensdag, zaterdag",
       "populariteitgoogle": 3.2,
       "gebruiksvriendelijk": "nee",
-      "basistekst": "Het Bormshuis is een museum en een documentatie- en archiefcentrum over de geschiedenis van de Vlaamse beweging. Het is genoemd naar August Borms (1878-1946), een Vlaams-nationalistische voorman."
+      "basistekst": "Het Bormshuis is een museum en een documentatie- en archiefcentrum over de geschiedenis van de Vlaamse beweging. Het is genoemd naar August Borms (1878-1946), een Vlaams-nationalistische voorman.",
+      "imageURL": "/images/locaties/bormshuis.jpg"
     },
     {
       "titel": "Erfgoedbibliotheek Hendrik Conscience (Korte Nieuwstr.)",
@@ -62,7 +69,8 @@
       "openingstijd": "Maandag t/m vrijdag",
       "populariteitgoogle": 4.7,
       "gebruiksvriendelijk": "nee",
-      "basistekst": "Midden in de bruisende Antwerpse binnenstad ligt de Erfgoedbibliotheek Hendrik Conscience. Ze bewaart en verzamelt al meer dan vijf eeuwen Vlaams cultureel erfgoed."
+      "basistekst": "Midden in de bruisende Antwerpse binnenstad ligt de Erfgoedbibliotheek Hendrik Conscience. Ze bewaart en verzamelt al meer dan vijf eeuwen Vlaams cultureel erfgoed.",
+      "imageURL": "/images/locaties/hendrikconscience.jpg"
     },
     {
       "titel": "t Vlaams Stripcentrum",
@@ -70,7 +78,8 @@
       "openingstijd": "Elke dag behalve vrijdag",
       "populariteitgoogle": 5,
       "gebruiksvriendelijk": "nee",
-      "basistekst": "Het centrum biedt een zeldzame combinatie van een erfgoedcollectie die het resultaat is van 25 jaar verzamelen (het Antiquariaat), een winkel, een bibliotheek met zowat 30.000 strips, een infotheek met documentatie en een aangename club van stripliefhebbers."
+      "basistekst": "Het centrum biedt een zeldzame combinatie van een erfgoedcollectie die het resultaat is van 25 jaar verzamelen (het Antiquariaat), een winkel, een bibliotheek met zowat 30.000 strips, een infotheek met documentatie en een aangename club van stripliefhebbers.",
+      "imageURL": "/images/locaties/vlaamsstripcentrum.jpg"
     },
     {
       "titel": "Turninum - Volksmuseum Deurne",
@@ -78,7 +87,8 @@
       "openingstijd": "Zaterdag & zondag",
       "populariteitgoogle": 4.1,
       "gebruiksvriendelijk": "nee",
-      "basistekst": "In een passende omgeving, een zevental historische arbeiderswoningen en een wagensmidse, reconstrueert dit museum leven en werk van de gewone werkman begin 20ste eeuw."
+      "basistekst": "In een passende omgeving, een zevental historische arbeiderswoningen en een wagensmidse, reconstrueert dit museum leven en werk van de gewone werkman begin 20ste eeuw.",
+      "imageURL": "/images/locaties/turninumvolksmuseum.jpg"
     },
     {
       "titel": "Kring voor Heemkunde Berchem",
@@ -86,7 +96,8 @@
       "openingstijd": "Elke tweede en vierde zondag van de maand",
       "populariteitgoogle": 4.5,
       "gebruiksvriendelijk": "nee",
-      "basistekst": "We houden ons bezig met het verzamelen, bewaren en het beheren van de Berchemse geschiedenis en voorwerpen. Heemkring Berchem is de erfgoedvereniging van en voor de vroegere gemeente en nu het district Berchem van de Stad Antwerpen."
+      "basistekst": "We houden ons bezig met het verzamelen, bewaren en het beheren van de Berchemse geschiedenis en voorwerpen. Heemkring Berchem is de erfgoedvereniging van en voor de vroegere gemeente en nu het district Berchem van de Stad Antwerpen.",
+      "imageURL": "/images/locaties/heemkunde.jpg"
     },
     {
       "titel": "Onze-Lieve-Vrouwekathedraal",
@@ -94,7 +105,8 @@
       "openingstijd": "Maandag t/m zondag",
       "populariteitgoogle": 4.5,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "Als bisschop van Antwerpen wil ik u graag begroeten in de Onze-Lieve-Vrouwekathedraal. Dit prachtige kerkgebouw is een thuis voor de Rooms-katholieke gemeenschap van Antwerpen. Haar toren is een baken voor elke trotse Antwerpenaar. Haar kunstschatten brengen mensen van over de hele wereld in vervoering."
+      "basistekst": "Als bisschop van Antwerpen wil ik u graag begroeten in de Onze-Lieve-Vrouwekathedraal. Dit prachtige kerkgebouw is een thuis voor de Rooms-katholieke gemeenschap van Antwerpen. Haar toren is een baken voor elke trotse Antwerpenaar. Haar kunstschatten brengen mensen van over de hele wereld in vervoering.",
+      "imageURL": "/images/locaties/kathedraal.jpg"
     },
     {
       "titel": "Rubenshuis",
@@ -102,7 +114,8 @@
       "openingstijd": "Dinsdag t/m zondag",
       "populariteitgoogle": 4.4,
       "gebruiksvriendelijk": "nee",
-      "basistekst": "In dit stadspaleis woont de briljante en veelzijdige kunstenaar Rubens met zijn gezin. Hier schildert hij met zijn collega’s en assistenten. Veel van zijn omvangrijke oeuvre ontstaat in dit huis, in hartje Antwerpen. Het museum heeft niet alleen een interessante collectie, maar toont ook hoe de meester leefde en werkte."
+      "basistekst": "In dit stadspaleis woont de briljante en veelzijdige kunstenaar Rubens met zijn gezin. Hier schildert hij met zijn collega’s en assistenten. Veel van zijn omvangrijke oeuvre ontstaat in dit huis, in hartje Antwerpen. Het museum heeft niet alleen een interessante collectie, maar toont ook hoe de meester leefde en werkte.",
+      "imageURL": "/images/locaties/rubenshuis.jpg"
     },
     {
       "titel": "Cinema Zuid (M HKA)",
@@ -110,7 +123,8 @@
       "openingstijd": "Alleen open als er een film is",
       "populariteitgoogle": 4.2,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "Er begint een nieuw verhaal, het verhaal van De Cinema. Geboren uit een samenwerking tussen twee instellingen die op het eerste gezicht als een odd couple kunnen worden gezien: Cinema Zuid, de filmwerking van het M HKA met haar focus op filmhistorische benadering van cinema, en De Studio, een jong en dynamisch, multidisciplinair cultuurhuis in het hart van de stad. Het resultaat wordt een zoektocht."
+      "basistekst": "Er begint een nieuw verhaal, het verhaal van De Cinema. Geboren uit een samenwerking tussen twee instellingen die op het eerste gezicht als een odd couple kunnen worden gezien: Cinema Zuid, de filmwerking van het M HKA met haar focus op filmhistorische benadering van cinema, en De Studio, een jong en dynamisch, multidisciplinair cultuurhuis in het hart van de stad. Het resultaat wordt een zoektocht.",
+      "imageURL": "/images/locaties/cinemazuid.jpg"
     },
     {
       "titel": "Sint Antonius van Padua Kerk",
@@ -118,7 +132,8 @@
       "openingstijd": "Dinsdag t/m vrijdag",
       "populariteitgoogle": 4.8,
       "gebruiksvriendelijk": 2000,
-      "basistekst": "De parochie van Sint-Antonius van Padua ligt in het oude stadsgedeelte binnen de Leien."
+      "basistekst": "De parochie van Sint-Antonius van Padua ligt in het oude stadsgedeelte binnen de Leien.",
+      "imageURL": "/images/locaties/sintantonius.jpg"
     },
     {
       "titel": "Poorterswoning de Pelgrom",
@@ -126,7 +141,8 @@
       "openingstijd": "Zaterdag & zondag",
       "populariteitgoogle": 4.2,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "Stap binnen in het leven van een 16de eeuwse poorter en maak een tijdsprong naar de Gouden Eeuw van Antwerpen.In deze 16de eeuwse woning draaien we de klok zo'n 500 jaar terug en legt onze gids uit hoe een rijke poorter woonde en leefde: het meubilair, zijn huisgerief, zijn bedstee, etc. U ontdekt er ook zijn huisdieren zoals de hond en kat, maar ook levende kippen, konijnen en reisduiven."
+      "basistekst": "Stap binnen in het leven van een 16de eeuwse poorter en maak een tijdsprong naar de Gouden Eeuw van Antwerpen.In deze 16de eeuwse woning draaien we de klok zo'n 500 jaar terug en legt onze gids uit hoe een rijke poorter woonde en leefde: het meubilair, zijn huisgerief, zijn bedstee, etc. U ontdekt er ook zijn huisdieren zoals de hond en kat, maar ook levende kippen, konijnen en reisduiven.",
+      "imageURL": "/images/locaties/poorterswoning.jpg"
     },
     {
       "titel": "Sint-Bartholomeus Kerk",
@@ -134,7 +150,8 @@
       "openingstijd": "Op afspraak",
       "populariteitgoogle": 4.3,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "Georiënteerde kruiskerk met ingebouwde westtoren ten noorden van het koor. De bouwgeschiedenis gaat terug tot de 15de eeuw. Zowel in de 18de, de 19de als de 20ste eeuw wordt de kerk ingrijpend vergroot. Na de bijna totale verwoesting in de 2de WO wordt de kerk tussen 1947 en 1950 heropgebouwd naar het vooroorlogs plan door architect H. Huygh. De kerk heeft nog een rijke schat aan barokmeubilair"
+      "basistekst": "Georiënteerde kruiskerk met ingebouwde westtoren ten noorden van het koor. De bouwgeschiedenis gaat terug tot de 15de eeuw. Zowel in de 18de, de 19de als de 20ste eeuw wordt de kerk ingrijpend vergroot. Na de bijna totale verwoesting in de 2de WO wordt de kerk tussen 1947 en 1950 heropgebouwd naar het vooroorlogs plan door architect H. Huygh. De kerk heeft nog een rijke schat aan barokmeubilair",
+      "imageURL": "/images/locaties/bartholomeuskerk.jpg"
     },
     {
       "titel": "Mineralogisch Museum",
@@ -142,7 +159,8 @@
       "openingstijd": "Zaterdag",
       "populariteitgoogle": 4.5,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "ACAM, de Academie voor Mineralogie vzw heeft als doel liefhebbers van edelstenen, mineralen en fossielen bij elkaar te brengen."
+      "basistekst": "ACAM, de Academie voor Mineralogie vzw heeft als doel liefhebbers van edelstenen, mineralen en fossielen bij elkaar te brengen.",
+      "imageURL": "/images/locaties/mineralogischmuseum.jpg"
     },
     {
       "titel": "Letterenhuis",
@@ -150,7 +168,8 @@
       "openingstijd": "Dinsdag t/m donderdag & zaterdag",
       "populariteitgoogle": 4.1,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "Het Letterenhuis draagt zorg voor het literaire erfgoed van Vlaanderen. Lees hier alles over archiefzorg en over het Letterenhuis, de missie, organisatie, medewerkers en geschiedenis."
+      "basistekst": "Het Letterenhuis draagt zorg voor het literaire erfgoed van Vlaanderen. Lees hier alles over archiefzorg en over het Letterenhuis, de missie, organisatie, medewerkers en geschiedenis.",
+      "imageURL": "/images/locaties/letterenhuis.jpg"
     },
     {
       "titel": "Universiteit Antwerpen (UA) - Bibliotheek - Historische Collecties",
@@ -158,7 +177,8 @@
       "openingstijd": "Maandag t/m zaterdag",
       "populariteitgoogle": 4.2,
       "gebruiksvriendelijk": "ja",
-      "basistekst": "De Universiteitsbibliotheek Antwerpen is naast een eigentijds-wetenschappelijke instelling ook een bewaarbibliotheek met een veelzijdige collectie gedrukt erfgoed (oude drukken, boeken, handschriften, typoscripten, prenten, ...). De afdeling Bijzondere Collecties beheert dit materiaal en ontfermt zich eveneens over het Academisch Erfgoed en het Kunstpatrimonium van de universiteit."
+      "basistekst": "De Universiteitsbibliotheek Antwerpen is naast een eigentijds-wetenschappelijke instelling ook een bewaarbibliotheek met een veelzijdige collectie gedrukt erfgoed (oude drukken, boeken, handschriften, typoscripten, prenten, ...). De afdeling Bijzondere Collecties beheert dit materiaal en ontfermt zich eveneens over het Academisch Erfgoed en het Kunstpatrimonium van de universiteit.",
+      "imageURL": "/images/locaties/uabib.jpg"
     }
   ]
 }

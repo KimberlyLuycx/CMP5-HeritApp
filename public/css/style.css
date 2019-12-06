@@ -185,15 +185,23 @@ h2 {
 
 /* FILTER EN SORTEER button styling */
 .button {
-  background-color: white;
+  background-color: #c71617;
   border: none;
-  color: #c71617;
+  color: white;
   padding: 0.1em;
+  line-height: 1.2;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
   text-align: center;
   text-decoration: none;
   font-size: 15px;
-  border-width: 5px;
+  border-width: 10px;
   border-color: #c71617;
+  border-radius: 2px;
+}
+
+.button:active {
+  background-color: black;
 }
 
 .sorteertekst {
