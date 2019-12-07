@@ -15,6 +15,7 @@ body {
 .content {
   margin-left: 25px;
   margin-right: 25px;
+  padding: 5px;
 }
 
 h1 {
@@ -59,6 +60,7 @@ h1 {
   border-radius: 50%;
   padding-left: 0.3em;
   padding-right: 0.3em;
+  filter: grayscale(100%);
 }
 
 /* NAVIGATIE CSS */
@@ -301,6 +303,35 @@ select {
 
 .linkoverzicht a {
   font-size: 16px;
+}
+
+.contenthome {
+  display: block;
+  position: relative;
+}
+
+.contenthome::after {
+  content: "";
+  background: url("/images/achtergrond_homepage.jpg");
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.home {
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 /* Star */
 
