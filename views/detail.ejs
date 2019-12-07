@@ -42,8 +42,6 @@ crossorigin=""/>
          iconSoort = erfgoedvereniging;
        } else if (categorie === 'Museum') {
          iconSoort = museum;
-       } else if (categorie === 'Levensbeschouwelijk.erfgoed') {
-         iconSoort = levensbeschouwelijk;
        } else if (categorie === 'Documentatiecentrum') {
          iconSoort = centrum;
        } else if (categorie === 'Erfgoedbibliotheek') {
@@ -52,6 +50,8 @@ crossorigin=""/>
          iconSoort = archief;
        } else if (categorie === 'Museumdepot') {
          iconSoort = depot;
+       } else {
+         iconSoort = levensbeschouwelijk;
        };
 
     L.marker([<%-details.geometry.y %>, <%-details.geometry.x %>], {icon: iconSoort}).addTo(mymap)
