@@ -312,7 +312,7 @@ select {
 
 .contenthome::after {
   content: "";
-  background: url("/images/achtergrond_homepage.jpg");
+  background: url("/images/achtergrond_homepage2.jpg");
   top: 0;
   left: 0;
   bottom: 0;
@@ -320,6 +320,7 @@ select {
   margin: 0;
   position: absolute;
   z-index: -1;
+  opacity: 90%;
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
