@@ -68,9 +68,6 @@ app.get('/contact', function (req, res) {
   res.render('contact');
 });
 
-app.get('/account', function (req, res) {
-  res.render('account');
-});
 
 app.get('/overzicht/:id', function(req,res){
 
