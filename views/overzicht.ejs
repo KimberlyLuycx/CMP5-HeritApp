@@ -38,11 +38,23 @@
       <div class="itemoverzicht <%= alleInfo[i].attr.categorie%> <%= alleInfo[i].attr.type%> <% if(alleInfo[i].info != undefined){ %>toegank-<%= alleInfo[i].info.gebruiksvriendelijk%><%}%>">
        	<p class="naam"><b class='bold'><%= alleInfo[i].attr.naam%></b><br>  <%= alleInfo[i].attr.categorie%></p>
         <% if (alleInfo[i].info != undefined) {%>
-        <p>Prijs: € <%= alleInfo[i].info.prijs%></p>
-        <p>Rolstoel- en buggyvriendelijk: <%= alleInfo[i].info.gebruiksvriendelijk%></p>
-        <p>Google rating: <%= alleInfo[i].info.populariteitgoogle%>/5</p>
+        <div class='extrainformatie'>
+        <p>€ <%= alleInfo[i].info.prijs%></p>
+          <% if (alleInfo[i].info.gebruiksvriendelijk == "nee") {%>
+            <p>Niet rolstoel- en buggyvriendelijk</p>
+          <% }%>
+          <% if (alleInfo[i].info.gebruiksvriendelijk == "ja") { %>
+            <p>Rolstoel- en buggyvriendelijk</p>
+          <%}%>
+        </div>
+        <div class="ratings">
+          <div class="empty-stars emptyoverzicht"></div>
+          <div class="full-stars fulloverzicht" style="width:<%=alleInfo[i].info.populariteitgoogle%>"></div>
+        </div><br>
         <% }%>
+        <div class='linkoverzicht'>
         <a class='linkskaart' href='/overzicht/<%=i%>'>Meer informatie</a>
+        </div>
       </div>
     <% } %>
   </section>

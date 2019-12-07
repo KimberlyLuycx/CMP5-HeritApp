@@ -286,3 +286,69 @@ select {
   border-radius: 5px;
   font-style: italic;
 }
+
+.extrainformatie {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.linkoverzicht {
+  margin-top: 10px;
+}
+
+.linkoverzicht a {
+  font-size: 16px;
+}
+/* Star */
+
+.ratings {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  color: white;
+  overflow: hidden;
+}
+
+.full-stars{
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #c71617;
+}
+
+.empty-stars:before,
+.full-stars:before {
+  content: "\2605\2605\2605\2605\2605";
+  font-size: 25pt;
+}
+
+.empty-stars:before {
+  -webkit-text-stroke: 1px #c71617;
+}
+
+.full-stars:before {
+  -webkit-text-stroke: 1px #c71617;
+}
+
+.emptyoverzicht:before,
+.fulloverzicht:before {
+  content: "\2605\2605\2605\2605\2605";
+  font-size: 15pt;
+}
+
+/* Webkit-text-stroke is not supported on firefox or IE */
+/* Firefox */
+@-moz-document url-prefix() {
+  .full-stars{
+    color: #c71617;
+  }
+}
+/* IE */
+<!--[if IE]>
+  .full-stars{
+    color: #c71617;
+  }
+<![endif]-->
