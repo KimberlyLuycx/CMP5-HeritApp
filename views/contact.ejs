@@ -9,7 +9,7 @@
 
   <form>
     <input name="name" type="text" class="feedback-input" placeholder="Uw naam en achternaam" required />
-    <input name="email" type="text" class="feedback-input" placeholder="Vul uw email in" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+    <input name="email" type="text" class="feedback-input" placeholder="Vul uw email in" pattern="[^@\s]+@[^@\s]+" required />
     <select class="feedback-input" name="choice">
         <option value="Opmerking">Opmerking</option>
         <option value="Vraag">Vraag</option>
