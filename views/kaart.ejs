@@ -1,23 +1,17 @@
 <% include header %>
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
 
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-      crossorigin=""/>
-
-
-      <header>
-
-        <h1>Kaart</h1>
-
-      </header>
+<header>
+<h1>Kaart</h1>
+</header>
 
   <section class='content'>
-  <div id="mapid"></div>
-  <section class="tekstkaart">
+    <div id="mapid"></div>
+    <section class="tekstkaart">
     <br><p>Op deze kaart ziet u alle erfgoedlocaties in Antwerpen. <br><br> U kunt in- en uitzoomen en zien welke locatie het dichtst bij u in de buurt is. Per locatie is extra informatie te zien als u hier op klikt. <br> <br>
     Hieronder is een legende voorzien om aan te geven welke betekenis de iconen hebben.</p>
-  </section>
+    </section>
 
   </section>
 
@@ -42,9 +36,9 @@
   <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
 integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
 crossorigin=""></script>
- <script src='/js/leafletscript.js'></script>
+  <script src='/js/leafletscript.js'></script>
 
- <script type="text/javascript">
+  <script type="text/javascript">
  <% for(var i=0; i < alleInfo.length; i++) { %>
 
    var iconSoort;

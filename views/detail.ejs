@@ -8,21 +8,24 @@ crossorigin=""/>
   </header>
   <section class='content'>
     <% if (alleInfo.info != undefined) {%>
-    <div class='fotoerfgoed' style="background-image: url(<%= alleInfo.info.imageURL%>); background-size: cover; background-position: center; border-radius: 5px;"></div>
-    <div class="ratings">
-      <div class="empty-stars"></div>
-      <div class="full-stars" style="width:<%=alleInfo.info.populariteitgoogle%>"></div>
-    </div>
+      <div class='fotoerfgoed' style="background-image: url(<%= alleInfo.info.imageURL%>); background-size: cover; background-position: center; border-radius: 5px;">
+      </div>
+      <div class="ratings">
+        <div class="empty-stars">
+        </div>
+        <div class="full-stars" style="width:<%=alleInfo.info.populariteitgoogle%>">
+        </div>
+      </div>
     <% }%>
-    <p><span class='bold'><%= alleInfo.attr.categorie%></span></p><br>
-    <p><%= alleInfo.attr.straat%> <%= alleInfo.attr.huisnr%></p>
-    <p><%= alleInfo.attr.postcode%> <%= alleInfo.attr.gemeente%> </p><br>
-    <p><%= alleInfo.attr.type%></p><br>
+      <p><span class='bold'><%= alleInfo.attr.categorie%></span></p><br>
+      <p><%= alleInfo.attr.straat%> <%= alleInfo.attr.huisnr%></p>
+      <p><%= alleInfo.attr.postcode%> <%= alleInfo.attr.gemeente%> </p><br>
+      <p><%= alleInfo.attr.type%></p><br>
     <% if (alleInfo.info != undefined) {%>
-    <p><span class='bold'>Prijs:</span> € <%=alleInfo.info.prijs %></p>
-    <p><span class='bold'>Openingsdagen:</span> <%=alleInfo.info.openingstijd %></p>
-    <p><span class='bold'>Toegankelijk voor rolstoelen en buggy's:</span> <%=alleInfo.info.gebruiksvriendelijk %></p><br>
-    <p class="basistekst"><%=alleInfo.info.basistekst %></p>
+      <p><span class='bold'>Prijs:</span> € <%=alleInfo.info.prijs %></p>
+      <p><span class='bold'>Openingsdagen:</span> <%=alleInfo.info.openingstijd %></p>
+      <p><span class='bold'>Toegankelijk voor rolstoelen en buggy's:</span> <%=alleInfo.info.gebruiksvriendelijk %></p><br>
+      <p class="basistekst"><%=alleInfo.info.basistekst %></p>
     <% }%>
     <div id="mapid"></div>
 

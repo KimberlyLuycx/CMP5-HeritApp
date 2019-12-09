@@ -2,8 +2,6 @@ html {
     text-align: center;
 }
 
-
-
 body {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
@@ -48,6 +46,7 @@ h1 {
  .leaflet-popup-content a {
    color: #c71617!important;
  }
+
 /* afbeeldingen op homepagina */
 .fotocontainer {
   padding-top: 2em;
@@ -93,6 +92,7 @@ li {
   list-style: none;
   display: inline-block;
 }
+
 li a {
     display: inline-block;
     padding: 10px;
@@ -120,9 +120,9 @@ header {
   /* LEAFLET KAART CSS */
 
 #mapid {
-  margin-top: 2em;
+ margin-top: 2em;
  height: 50vh;
-width: 100%;
+ width: 100%;
 }
 
 .bold {
