@@ -3,6 +3,12 @@
 integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
 crossorigin=""/>
 <main>
+  <button class='previous round' onclick="goBack()">Terug</button>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
   <header>
     <h1><%= alleInfo.attr.naam%></h1>
   </header>
@@ -60,9 +66,6 @@ crossorigin=""/>
     L.marker([<%-geometriedetails.geometry.y %>, <%-geometriedetails.geometry.x %>], {icon: iconSoort}).addTo(mymap)
              .bindPopup(`<b class='bold'><%- alleInfo.attr.naam%></b><br> <%- alleInfo.attr.categorie%>`).on('click', function(e){mymap.setView([<%-geometriedetails.geometry.y %>, <%-geometriedetails.geometry.x %>], 18)});
    </script>
-
-    <a class='linkskaart' href='/overzicht/'>Terug naar het overzicht</a><br>
-    <a class='linkskaart' href='/kaart/'>Terug naar de map</a>
   </section>
 
 

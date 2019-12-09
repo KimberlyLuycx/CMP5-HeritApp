@@ -387,3 +387,21 @@ select {
     color: #c71617;
   }
 <![endif]-->
+
+/* Terug knop op detailpagina */
+
+.previous {
+  background-color: #c71617;
+  color: white;
+  padding: 15px;
+}
+
+.round {
+  border-radius: 5px;
+  background-color: #c71617;
+  color: white;
+  font-size: 14px;
+  padding: 7px;
+  border: none;
+  margin-top: 5px;
+}
