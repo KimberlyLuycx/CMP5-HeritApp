@@ -54,7 +54,8 @@ app.get('/', function (req, res) {
 // wat achter de slash staat is url die je ingeeft in browse
 app.get('/kaart', function (req, res) {
   res.render('kaart', {
-    information: features
+    geometrie: features,
+    alleInfo: alleInfo
   });
 });
 
@@ -73,7 +74,7 @@ app.get('/overzicht/:id', function(req,res){
 
   res.render('detail', {
     alleInfo: alleInfo[req.params.id],
-    details: features[req.params.id]
+    geometriedetails: features[req.params.id]
   });
 });
 
